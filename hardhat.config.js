@@ -4,6 +4,7 @@ require("@nomicfoundation/hardhat-toolbox");
 // project. It imports a Hardhat task definition, that can be used for
 // testing the frontend.
 require("./tasks/faucet");
+require("./tasks/balance");
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
