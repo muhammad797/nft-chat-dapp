@@ -1,0 +1,44 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 46px 130px 0px 130px;
+  }
+  .title{
+    font-size: 24px;
+  }
+  ul{
+    display: inherit;
+    justify-content: space-between;
+  }
+  
+  ul li{
+    
+    font-size: 16px;
+    font-family:'Inter', sans-serif;
+    list-style: none;
+    padding: 16px;
+    transition: transform .1sec ease;
+    z-index: 10;
+  }
+  ul li:hover{
+    opacity: .8;
+  }
+  
+  a{
+    font-family: "Inter",sans-serif;
+    color: white;
+    z-index: 5;
+    cursor: pointer;
+  }
+  
+  .navBtn{
+    background-color:#5200BA;
+    padding: 10px 39.5px;
+  }
+  
+  
+  .title{
+    font-family: 'Zen Dots', cursive;
+    margin-top: 1.5rem;
+  }
+  

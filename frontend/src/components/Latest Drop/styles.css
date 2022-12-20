@@ -1,0 +1,90 @@
+.latestWrapper{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.latestWrapper h1{
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Zen Dots', cursive;
+    margin: 0 0 1.7rem 0;
+
+}
+
+.latestHead{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px 0 160px;
+}
+
+.latestImg{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.latestBtn{
+    z-index: 10;
+    margin-top: 1rem;
+}
+.headBtn{
+    color: white;
+    border: none;
+    font-size: 16px;
+    background-color: #5200BA;
+    padding: 10px 38px;
+}
+
+.contentWrapper{
+    position: relative;
+}
+
+.imgData{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    backdrop-filter: blur(10px);
+    margin: 0;
+    height: 197px;
+}
+.imgBtn{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+
+.imgBtn img{
+    cursor: pointer;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.imgDescription{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.btn2{
+    font-size: 16px;
+    background-color:  #5200BA;
+    padding: 10px 29px;
+}
+
+.imgDescription h2{
+    font-size: 18px;
+    font-family: 'Zen Dots', cursive;
+    margin: 0;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.imgDescription p{
+    font-size: 16px;
+    font-family: 'Inter';
+}
+

@@ -1,0 +1,27 @@
+.footWrapper{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.footWrapper h3{
+    font-family: "Zen dots",cursive;
+    margin: 0;
+    color: white;
+}
+
+.footWrapper p{
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+.footerImg{
+    filter: invert(100%);
+}
+.footerImg img{
+    margin-right: 10px;
+    width: 2.1rem;
+    height: 2.1rem;
+}

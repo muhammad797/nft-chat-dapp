@@ -1,0 +1,189 @@
+.chatWrapper{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+    margin-top: 5rem;
+    width: 80%;
+    opacity: 0.3;
+}
+.chatWrapper h1{
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Zen Dots', cursive;
+}
+
+.chatHead{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px 0 150px;
+}
+
+.chatBtn{
+    z-index: 10;
+    margin-top: 2rem;
+}
+
+.btn1{
+    padding: 10px 19px;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chatContainer{
+    display: flex;
+    width: 75%;
+    border: 1px solid white;
+    flex-direction: column;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+}
+p{
+    font-family: "Inter",sans-serif;
+    color: white;
+}
+
+.chatBox{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 50%;
+    gap: 10px;
+}
+.chatBoxImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.chatInfo{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.chatInfo2{
+    display: flex;
+}
+
+.chatInfo2 p{
+    font-family: 'Zen dots',cursive;
+    margin: 0;
+}
+
+.chatInfo p{
+    font-family: "Zen dots", cursive;
+    margin: 0;
+}
+
+
+.chatTxt{
+    display: flex;
+    box-sizing: border-box;
+    font-family: "Zen dots", cursive;
+    color: black;
+    background-color: #FDEABC;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    line-height: 28px;
+}
+.chatTxt h3{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.chatTxt2 h3{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.chatBoxInfo{
+    display: flex;
+    gap: 10px;
+}
+
+
+.chatBox2{
+    width: 50%;
+    position: relative;
+    display: flex;
+    gap: 10px;
+    padding: 40px;
+    bottom: 0;
+    left: 42%;
+    flex-direction: column-reverse;
+}
+
+.chatTxt2{
+    box-sizing: border-box;
+    font-family: "Zen dots", cursive;
+    color: black;
+    background-color: #BDBCFD;
+    border-radius: 10px;
+    padding: 0px 10px;
+    border: 2px solid #FFFFFF;
+}
+
+.chatImg{
+    align-self: flex-end;
+}
+
+.chatHeadBtn{
+    color: white;
+    font-size: 16px;
+    font-family: "Inter",sans-serif;
+    background-color: #5200BA;
+    padding: 10px 19px;
+    border: none;
+}
+
+.chatField{
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+
+}
+
+.chatField::-webkit-input-placeholder{
+    font-family: 'Zen dots', cursive;
+    font-size: 20px;
+    opacity: .5;
+    padding-left: 3rem;
+}
+
+.inputWrapper{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.chatField{
+    flex: 1;
+}
+
+.inputWrapper .inputImg{
+    height: 70%;
+}
+
+.inputImg{
+    
+    position: absolute;
+    top: 15%;
+    left: 1%;
+}
+
+.inputImg2{
+    cursor: pointer;
+    position: absolute;
+    right: 3%;
+    top: 40%;
+
+}
