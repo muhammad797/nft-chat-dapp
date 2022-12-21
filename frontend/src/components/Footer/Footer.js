@@ -8,8 +8,8 @@ const Footer = () => {
             <h3>Chatty NFTs📣</h3>
             <p>Copyright @ 2022 - ChattyNFTs - All Right Reserved</p>
             <div className='footerImg'>
-                <img src={discord}></img>
-                <img src={twitter}></img>
+                <img className='discord' src={discord}></img>
+                <img className='twitter' src={twitter}></img>
             </div>
         </div>
     )

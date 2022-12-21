@@ -2,7 +2,7 @@ import React from 'react'
 import './styles.css'
 import chatPic from '../../images/chatPic.png'
 import sendImg from '../../images/send.png'
-
+import arrow from "../../images/arrow.png"
 
 const chatSection = () => {
     return (
@@ -15,38 +15,41 @@ const chatSection = () => {
             </div>
             <div className='container'>
                 <div className='chatContainer'>
-                    <div className='chatBox'>
-                        <div className='chatBoxInfo'>
-                            <div className='chatBoxImg'>
-                                <img src={chatPic}></img>
-                            </div>
-                            <div className='chatTxt'>
+                    <div>
+                        <div className='chatBox'>
+                            <div className='chatBoxInfo'>
+                                <div className='chatBoxImg'>
+                                    <img src={chatPic}></img>
 
-                                <h3>Hello, this is Astronaut. Are you up for an adventure?</h3>
+                                </div>
+                                <div className='chatTxt'>
+
+                                    <h3>Hello, this is Astronaut. Are you up for an adventure?</h3>
+                                </div>
+                            </div>
+                            <div className='chatInfo'>
+                                <p>7th December, 2022 | 15:48 UTC+0</p>
+                            </div>
+
+                            <div>
+
+                            </div>
+
+                        </div>
+                        <div className='chatBox'>
+                            <div className='chatBoxInfo'>
+                                <div className='chatBoxImg'>
+                                    <img src={chatPic}></img>
+                                </div>
+                                <div className='chatTxt'>
+                                    <h3>Yes, ofcourse. Where do you want to go, btw can you leave mars? 😆</h3>
+                                </div>
+                            </div>
+                            <div className='chatInfo'>
+                                <p>7th December, 2022 | 15:48 UTC+0</p>
                             </div>
                         </div>
-                        <div className='chatInfo'>
-                            <p>7th December, 2022 | 15:48 UTC+0</p>
-                        </div>
-
-                        <div>
-
-                        </div>
-
-                    </div>
-                    <div className='chatBox'>
-                        <div className='chatBoxInfo'>
-                            <div className='chatBoxImg'>
-                                <img src={chatPic}></img>
-                            </div>
-                            <div className='chatTxt'>
-                                <h3>Yes, ofcourse. Where do you want to go, btw can you leave mars? 😆</h3>
-                            </div>
-                        </div>
-                        <div className='chatInfo'>
-                            <p>7th December, 2022 | 15:48 UTC+0</p>
-                        </div>
-                    </div>
+                    </div >
                     <div className='chatBox2'>
                         <div className='chatInfo2'>
                             <p>7th December, 2022 | 15:48 UTC+0</p>
@@ -67,7 +70,10 @@ const chatSection = () => {
 
                     <div className='inputWrapper'>
                         <img className='inputImg' src={chatPic}></img>
-                        <input type='text' placeholder='Type your text here...' className='chatField'></input>
+                        <div className='chooseNftWrap'>
+                            <img className='chooseNft' src={arrow}></img>
+                        </div>
+                        <input type='text' placeholder='Type your message here...' className='chatField'></input>
                         <img className='inputImg2' src={sendImg}></img>
                     </div>
 

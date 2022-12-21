@@ -14,12 +14,12 @@ contract ChattyNftCollection is ERC721URIStorage, Ownable {
 
     constructor() ERC721("ChattyCollection", "CHTY") {}
 
-    function setBaseURI(string calldata _baseUrl) public onlyOwner {
-        _baseTokenURI = _baseUrl;
-    }
-
     function _baseURI() internal view virtual override returns (string memory) {
         return _baseTokenURI;
+    }
+
+    function setBaseURI(string calldata _baseUrl) public onlyOwner {
+        _baseTokenURI = _baseUrl;
     }
 
     function mint(address user, string memory tokenUri) public onlyOwner {
@@ -41,10 +41,11 @@ contract ChattyNftCollection is ERC721URIStorage, Ownable {
             "ERC721MetaData: URI query for nonexistent token"
         );
 
-        if (revealed) {
-            return "";
-        } else {
-            return "";
-        }
+        return _baseURI();
+        // if (revealed) {
+        //     return "";
+        // } else {
+        //     return "";
+        // }
     }
 }

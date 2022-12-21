@@ -7,7 +7,7 @@
 hr{
     margin-top: 5rem;
     width: 80%;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 .chatWrapper h1{
     font-size: 32px;
@@ -20,16 +20,17 @@ hr{
     display: flex;
     justify-content: space-between;
     padding: 0 150px 0 150px;
+    margin-bottom: 1rem;
 }
 
 .chatBtn{
     z-index: 10;
     margin-top: 2rem;
+    cursor: pointer;
 }
 
 .btn1{
     padding: 10px 19px;
-    cursor: pointer;
 }
 
 .container{
@@ -40,7 +41,7 @@ hr{
 .chatContainer{
     display: flex;
     width: 75%;
-    border: 1px solid white;
+    border: 2px solid grey;
     flex-direction: column;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.05);
@@ -53,9 +54,10 @@ p{
 .chatBox{
     display: flex;
     flex-direction: column;
-    padding: 40px;
-    width: 50%;
+    padding: 40px 60px 0 60px;
+    width: 53%;
     gap: 10px;
+    padding-bottom: 0;
 }
 .chatBoxImg {
     display: flex;
@@ -64,12 +66,14 @@ p{
 }
 
 .chatInfo{
+    font-size: 14px;
     display: flex;
     justify-content: flex-end;
     margin: 0;
 }
 
 .chatInfo2{
+    font-size: 14px;
     display: flex;
 }
 
@@ -91,18 +95,23 @@ p{
     color: black;
     background-color: #FDEABC;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0 25px;
     border: 2px solid #FFFFFF;
     line-height: 28px;
+    margin: 0;
 }
 .chatTxt h3{
     font-size: 24px;
     font-weight: 100;
+    line-height: 28.8px;
+    margin: 12px 0;
 }
 
 .chatTxt2 h3{
     font-size: 24px;
     font-weight: 100;
+    line-height: 28.8px;
+    margin: 12px 10px 12px 0px;
 }
 
 .chatBoxInfo{
@@ -112,13 +121,14 @@ p{
 
 
 .chatBox2{
-    width: 50%;
+    width: 55%;
     position: relative;
     display: flex;
     gap: 10px;
-    padding: 40px;
+    padding: 40px 0 30px 0;
+    margin-bottom: 0;
     bottom: 0;
-    left: 42%;
+    left: 40%;
     flex-direction: column-reverse;
 }
 
@@ -130,6 +140,7 @@ p{
     border-radius: 10px;
     padding: 0px 10px;
     border: 2px solid #FFFFFF;
+    text-align: right;
 }
 
 .chatImg{
@@ -143,20 +154,30 @@ p{
     background-color: #5200BA;
     padding: 10px 19px;
     border: none;
+    cursor: pointer;
+}
+
+.chatHeadBtn:hover{
+    opacity: 0.7;
+}
+
+.chat{
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .chatField{
     border-radius: 10px;
-    padding: 30px;
-    margin: 10px;
-
+    padding: 35px;
+    margin: 1rem;
 }
 
 .chatField::-webkit-input-placeholder{
     font-family: 'Zen dots', cursive;
-    font-size: 20px;
-    opacity: .5;
-    padding-left: 3rem;
+    font-size: 24px;
+    opacity: .2;
+    padding-left: 4rem;
+    line-height: 28.8px;
 }
 
 .inputWrapper{
@@ -169,21 +190,37 @@ p{
     flex: 1;
 }
 
-.inputWrapper .inputImg{
-    height: 70%;
-}
 
 .inputImg{
-    
+    width: 62px;
+    height: 62px;
     position: absolute;
-    top: 15%;
-    left: 1%;
+    top: 26%;
+    left: 3%;
 }
 
 .inputImg2{
     cursor: pointer;
     position: absolute;
-    right: 3%;
-    top: 40%;
+    right: 3.5%;
+    top: 29%;
+    background-color: #F3F3F3;
+    padding: 13px;
+    border-radius: 10px;
+}
 
+.chooseNftWrap{
+    position: absolute;
+    left: 7%;
+    bottom:30%;
+}
+
+.chooseNft{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    padding: 6px;
+    border: 1px solid lightslategray;
+    cursor: pointer;
 }

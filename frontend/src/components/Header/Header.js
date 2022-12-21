@@ -7,11 +7,11 @@ const Header = () => {
         <div className='headWrapper'>
             <div className='header'>
                 <div className='header-content'>
-                    <h1><span>Hello 👋,</span><br></br>
+                    <h1>Hello 👋,<br></br>
                         From a platform where you can chat with other members over Blockchain technology! ✨</h1>
                     <div>
                         <button className='btn1'>Start Chatting</button>
-                        <button className='btn2'>Explore MarketPlace</button>
+                        <button className='btn2'>Explore Marketplace</button>
                     </div>
 
                 </div>

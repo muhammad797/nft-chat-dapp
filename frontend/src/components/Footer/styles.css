@@ -1,18 +1,22 @@
 .footWrapper{
-    margin-top: 1rem;
+    margin: 1rem 2rem 1.5rem 2rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
 }
 
 
 .footWrapper h3{
+    font-size: 24px;
     font-family: "Zen dots",cursive;
     margin: 0;
     color: white;
+    font-weight: 100;
+    
 }
 
 .footWrapper p{
+    font-size: 14px;
     margin-top: 10px;
     opacity: 0.5;
 }
@@ -20,8 +24,16 @@
 .footerImg{
     filter: invert(100%);
 }
-.footerImg img{
+.footerImg .discord{
     margin-right: 10px;
     width: 2.1rem;
     height: 2.1rem;
+    cursor: pointer;
+}
+
+.twitter{
+    margin-right: 10px;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
 }

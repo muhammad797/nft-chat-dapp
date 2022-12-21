@@ -7,7 +7,7 @@ const LatestDrop = () => {
     return (
         <div className='latestWrapper'>
             <div className='latestHead'>
-                <h1>Latest Drop📣</h1>
+                <h1>Latest Drops 📣</h1>
                 <div className='latestBtn'>
                     <button className='headBtn'>View All</button>
                 </div>
@@ -16,20 +16,23 @@ const LatestDrop = () => {
             <div className='latestImg'>
                 <div>
                     <div className='contentWrapper'>
-                        <img src={latestImg}></img>
+                        <img className='contentImg' src={latestImg}></img>
 
                         <div className='imgData'>
                             <div className='imgDescription'>
-                                <h2>Astronaut on Mars #137
-                                </h2>
+                                <h3>Astronaut on Mars #137
+                                </h3>
                                 <p>Oil painting styled astronaut wandering on orange soil of mars.</p>
-                                <h1>
-                                    0.1 ETH
-                                </h1>
+
                             </div>
-                            <div className='imgBtn'>
-                                <img src={heartImg}></img>
-                                <button className='btn2'>View</button>
+                            <div className='imgBtns'>
+                                <h2>
+                                    0.1 ETH
+                                </h2>
+                                <div>
+                                    <img src={heartImg}></img>
+                                    <button className='latestImgBtn'>View</button>
+                                </div>
 
                             </div>
                         </div>
@@ -40,16 +43,19 @@ const LatestDrop = () => {
                     <div className='contentWrapper'>
                         <div className='imgData'>
                             <div className='imgDescription'>
-                                <h2>Astronaut on Mars #137
-                                </h2>
+                                <h3>Astronaut on Mars #137
+                                </h3>
                                 <p>Oil painting styled astronaut wandering on orange soil of mars.</p>
-                                <h1>
-                                    0.1 ETH
-                                </h1>
+
                             </div>
-                            <div className='imgBtn'>
-                                <img src={heartImg}></img>
-                                <button className='btn2'>View</button>
+                            <div className='imgBtns'>
+                                <h2>
+                                    0.1 ETH
+                                </h2>
+                                <div>
+                                    <img src={heartImg}></img>
+                                    <button className='latestImgBtn'>View</button>
+                                </div>
 
                             </div>
                         </div>
@@ -60,17 +66,20 @@ const LatestDrop = () => {
                     <div className='contentWrapper'>
                         <div className='imgData'>
                             <div className='imgDescription'>
-                                <h2>Astronaut on Mars #137
-                                </h2>
+                                <h3>Astronaut on Mars #137
+                                </h3>
                                 <p>Oil painting styled astronaut wandering on orange soil of mars.</p>
-                                <h1>
-                                    0.1 ETH
-                                </h1>
-                            </div>
-                            <div className='imgBtn'>
-                                <img src={heartImg}></img>
-                                <button className='btn2'>View</button>
 
+                            </div>
+
+                            <div className='imgBtns'>
+                                <h2>
+                                    0.1 ETH
+                                </h2>
+                                <div>
+                                    <img src={heartImg}></img>
+                                    <button className='latestImgBtn'>View</button>
+                                </div>
                             </div>
                         </div>
                     </div>

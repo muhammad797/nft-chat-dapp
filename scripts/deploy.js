@@ -34,7 +34,13 @@ async function main() {
 
 function saveFrontendFiles(token) {
   const fs = require("fs");
-  const contractsDir = path.join(__dirname, "..", "frontend", "src", "contracts");
+  const contractsDir = path.join(
+    __dirname,
+    "..",
+    "frontend",
+    "src",
+    "contracts"
+  );
 
   if (!fs.existsSync(contractsDir)) {
     fs.mkdirSync(contractsDir);
@@ -46,10 +52,17 @@ function saveFrontendFiles(token) {
   );
 
   const TokenArtifact = artifacts.readArtifactSync("Token");
+  const ChattyNftCollectionArtifact = artifacts.readArtifactSync(
+    "ChattyNftCollection"
+  );
 
   fs.writeFileSync(
     path.join(contractsDir, "Token.json"),
     JSON.stringify(TokenArtifact, null, 2)
+  );
+  fs.writeFileSync(
+    path.join(contractsDir, "ChattyNftCollection.json"),
+    JSON.stringify(ChattyNftCollectionArtifact, null, 2)
   );
 }
 

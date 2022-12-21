@@ -1,11 +1,12 @@
 nav{
   display: flex;
   justify-content: space-between;
-  padding: 46px 130px 0px 130px;
+  padding: 12px 130px ;
   }
   .title{
     font-size: 24px;
   }
+
   ul{
     display: inherit;
     justify-content: space-between;
@@ -16,10 +17,11 @@ nav{
     font-size: 16px;
     font-family:'Inter', sans-serif;
     list-style: none;
-    padding: 16px;
+    padding: 20px;
     transition: transform .1sec ease;
     z-index: 10;
   }
+
   ul li:hover{
     opacity: .8;
   }
